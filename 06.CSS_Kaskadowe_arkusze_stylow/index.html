@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Task 6</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Strona jest rózowa pomimo innego atrybuty dla sekcji body w style.css ponieważ przeglądarka uznaje styl położony bliżej elementu -->
+    <style>
+        body {
+            background-color: pink;
+        }
+    </style>
 </head>
-<body>
+
+<!-- Strona jest zielona pomimo innego atrybuty dla sekcji body w style.css oraz stylu z heada ponieważ bliżej kolor zielony jest najbliżej elementu -->
+
+<body style="background-color:green">
+
+    <div style="background-color:white">
+        <p id="first-paragraph">Jestem zielony</p>
+        <p id="second-paragraph">Jestem fioletowy</p>
+        <p>Jestem brązowy</p>
+        <p>Jestem brązowy</p>
+        <p>Jestem brązowy</p>
+        <p>Jestem brązowy</p>
+        <p>Jestem brązowy</p>
+        <div class="block">div</div>
+        <div class="block">div</div>
+        <div class="block">div</div>
+        <div class="block">div</div>
+        <div class="block">div</div>
+    </div>
 
 </body>
+
 </html>
