@@ -1,0 +1,46 @@
+#keywordColor1{
+    color: blue
+}
+
+#keywordColor2{
+    color: green
+}
+
+#CSS{
+    color: red
+}
+
+#is{
+    color: darkgoldenrod
+}
+
+#awsome{
+    color: darkmagenta
+}
+
+#p1{
+    color: rgb(255,10,10)
+}
+
+#p2{
+    color: rbga(20,201,204,1)
+}
+
+#p3{
+    color: hsl(0, 100%, 25%)
+}
+
+.container{
+    background-color: blue;
+    width: 200px;
+}
+
+.first{
+    background-color: lightgreen;
+    width: 50%;
+}
+
+.second{
+    background-color: blueviolet;
+    width: 10em;
+}
