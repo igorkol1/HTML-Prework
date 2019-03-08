@@ -1,0 +1,25 @@
+/*Nadaje przezroczystość tylko dla tła*/
+.first{
+    background-color:rgba(255, 99, 71, 0.5)
+}
+
+/*Nadaje przezroczystość tylko dla tła i tekstu*/
+.second{
+    background-color: red;
+    opacity: .5;
+}
+
+.gradient{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(147,206,222,1);
+    background-image: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+}
+
+.image{
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/image.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
