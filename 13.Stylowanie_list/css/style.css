@@ -1,0 +1,12 @@
+.squereList{
+    list-style-type: square;
+}
+
+.menuList{
+color: #116493;
+}
+
+.menuElement{
+    display: inline-block;
+    margin: 0 20px;
+}
